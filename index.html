@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lili — Индивидуални уроци по френски</title>
+  <meta
+    name="description"
+    content="Индивидуални онлайн уроци по френски с Лили — от първите думи до свободното говорене, подготовка за учене във Франция и увереност на френски в работата."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,500;1,9..144,600&amp;family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="global.css" />
+</head>
+<body>
+  <div class="tricolor-rule" aria-hidden="true"></div>
+  <a class="skip-link" href="#main" data-i18n="skip.link">Към съдържанието</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="container site-nav">
+      <a href="#top" class="logo">Lili<span class="text-muted">·fr</span></a>
+
+      <nav class="nav-links" data-i18n-attr="aria-label:nav.ariaMain" aria-label="Основна навигация">
+        <a href="#lessons" data-i18n="nav.lessons">Уроци</a>
+        <a href="#approach" data-i18n="nav.approach">Подход</a>
+        <a href="#about" data-i18n="nav.about">За мен</a>
+        <a href="#pricing" data-i18n="nav.pricing">Цени</a>
+        <a href="#contact" data-i18n="nav.contact">Контакт</a>
+      </nav>
+
+      <div class="nav-cta">
+        <div class="lang-switch" role="group" data-i18n-attr="aria-label:nav.langAria" aria-label="Избор на език">
+          <button type="button" class="lang-switch__btn is-active" data-lang="bg" aria-pressed="true">БГ</button>
+          <button type="button" class="lang-switch__btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a
+          href="https://calendly.com/merdzhanovalilia/30min/2026-08-27T18:00:00+03:00"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button--accent nav-cta__button"
+          data-i18n="cta.book"
+        >Запази безплатна среща</a>
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobileNav"
+          data-i18n-attr="aria-label:nav.ariaToggle"
+          aria-label="Отвори менюто"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <div class="container">
+        <nav data-i18n-attr="aria-label:nav.ariaMobile" aria-label="Мобилна навигация">
+          <a href="#lessons" data-i18n="nav.lessons">Уроци</a>
+          <a href="#approach" data-i18n="nav.approach">Подход</a>
+          <a href="#about" data-i18n="nav.about">За мен</a>
+          <a href="#pricing" data-i18n="nav.pricing">Цени</a>
+          <a href="#contact" data-i18n="nav.contact">Контакт</a>
+        </nav>
+        <div class="lang-switch" role="group" data-i18n-attr="aria-label:nav.langAria" aria-label="Избор на език">
+          <button type="button" class="lang-switch__btn is-active" data-lang="bg" aria-pressed="true">БГ</button>
+          <button type="button" class="lang-switch__btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a
+          href="https://calendly.com/merdzhanovalilia/30min/2026-08-27T18:00:00+03:00"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="button button--accent"
+          data-i18n="cta.book"
+        >Запази безплатна среща</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero">
+      <img class="hero-sticker" src="ressources/sticker-ca-marche.png" alt="" aria-hidden="true" />
+      <div class="container hero__content">
+        <h1 data-i18n="hero.h1">Научи френски, който <em>наистина</em> ще използваш.</h1>
+        <p class="hero__tagline" data-i18n="hero.tagline">От първите думи до свободното говорене.</p>
+        <div class="hero__actions">
+          <a
+            href="https://calendly.com/merdzhanovalilia/30min/2026-08-27T18:00:00+03:00"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button button--accent"
+            data-i18n="cta.book"
+          >
+            Запази безплатна среща
+          </a>
+          <span class="email-tooltip-wrap">
+            <a
+              href="mailto:merdzhanovalilia@gmail.com"
+              class="button button--ghost"
+              data-i18n="cta.email"
+              title="merdzhanovalilia@gmail.com"
+            >Пиши ми по имейл</a>
+            <span class="email-tooltip" aria-hidden="true">merdzhanovalilia@gmail.com</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="credentials" aria-labelledby="credentials-text">
+      <div class="container">
+        <div class="credentials__panel reveal">
+          <div class="credentials__signal" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+
+          <p class="sr-only" id="credentials-text" data-i18n="credentials.full">
+            10 години във Франция · CELSA – Sorbonne Université · Опит във френска бизнес среда и преподаване
+          </p>
+
+          <div class="credentials__grid" aria-hidden="true">
+            <div class="credential">
+              <span class="credential__index">01</span>
+              <span class="credential__text" data-i18n="credentials.france">10 години във Франция</span>
+            </div>
+            <div class="credential">
+              <span class="credential__index">02</span>
+              <span class="credential__text" data-i18n="credentials.celsa">CELSA – Sorbonne Université</span>
+            </div>
+            <div class="credential">
+              <span class="credential__index">03</span>
+              <span class="credential__text" data-i18n="credentials.experience">Опит във френска бизнес среда и преподаване</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="lessons">
+      <div class="container">
+        <h2 class="reveal" data-i18n="lessons.h2">Избери урок според целта си</h2>
+
+        <div class="grid grid--3" style="margin-top: 48px">
+          <article class="lesson-card lesson-card--learn reveal reveal--1">
+            <span class="lesson-card__icon" aria-hidden="true">
+              <img src="ressources/lesson-icon-01.png" alt="" />
+            </span>
+            <h3 data-i18n="lesson1.title">Научи френски</h3>
+            <p class="lesson-card__tagline" data-i18n="lesson1.tagline">За свободна комуникация</p>
+            <p class="lesson-card__topics">Grammaire · vocabulaire · prononciation · conversation</p>
+            <p class="lesson-card__for" data-i18n="lesson1.for">
+              <strong>Подходящо за:</strong> начинаещи и хора, които искат да подобрят френския си.
+            </p>
+          </article>
+
+          <article class="lesson-card lesson-card--study reveal reveal--2">
+            <span class="lesson-card__icon" aria-hidden="true">
+              <img src="ressources/lesson-icon-02.png" alt="" />
+            </span>
+            <h3 data-i18n="lesson2.title">Учи във Франция</h3>
+            <p class="lesson-card__tagline" data-i18n="lesson2.tagline">За обучение в университетска среда.</p>
+            <p class="lesson-card__topics">Argumentation · présentations · rédaction · codes académiques</p>
+            <p class="lesson-card__for" data-i18n="lesson2.for">
+              <strong>Подходящо за:</strong> хора, на които предстои следване, Erasmus или друга
+              академична програма във Франция.
+            </p>
+          </article>
+
+          <article class="lesson-card lesson-card--work reveal reveal--3">
+            <span class="lesson-card__icon" aria-hidden="true">
+              <img src="ressources/lesson-icon-03.png" alt="" />
+            </span>
+            <h3 data-i18n="lesson3.title">Работи на френски</h3>
+            <p class="lesson-card__tagline" data-i18n="lesson3.tagline">За задачите в работна среда.</p>
+            <p class="lesson-card__topics">Réunions · entretiens · e-mails · présentations</p>
+            <p class="lesson-card__for" data-i18n="lesson3.for">
+              <strong>Подходящо за:</strong> хора, които вече говорят френски и искат да го
+              използват по-уверено в работата си.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--lilac" id="approach">
+      <div class="container">
+        <div class="reveal">
+          <h2 data-i18n="approach.h2">Няма просто да учиш френски. <em>Ще започнеш</em> да го използваш.</h2>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit reveal reveal--1">
+            <h3 data-i18n="benefit1.title">Реален френски</h3>
+            <p data-i18n="benefit1.text">Автентични ситуации и език, а не изкуствени учебникови диалози.</p>
+          </div>
+          <div class="benefit reveal reveal--2">
+            <h3 data-i18n="benefit2.title">Персонален подход</h3>
+            <p data-i18n="benefit2.text">Според нивото, темпото и целта на всеки ученик.</p>
+          </div>
+          <div class="benefit reveal reveal--3">
+            <h3 data-i18n="benefit3.title">Активна практика</h3>
+            <p data-i18n="benefit3.text">Използваш наученото активно още по време на самия урок.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-photo-wrap reveal">
+          <img
+            class="about-photo"
+            src="ressources/PHOTO.jpeg"
+            width="800"
+            height="800"
+            loading="lazy"
+            data-i18n-attr="alt:about.alt"
+            alt="Лили, преподавател по френски език"
+          />
+        </div>
+
+        <div class="about-card reveal reveal--2">
+          <h2 data-i18n="about.h2">Френският е езикът, на който учих, работих и живях повече от 10 години.</h2>
+          <p data-i18n="about.p1">
+            Аз съм <strong>Лили</strong> и завърших бакалавърска и магистърска степен по
+            международна комуникация в CELSA – Sorbonne Université във Франция.
+          </p>
+          <p data-i18n="about.p2">
+            Живях във Франция 10 години, като опитът ми включва работа във френски компании като
+            <strong>BNP Paribas</strong> и <strong>L’Oréal</strong>, както и преподаване на
+            френски език на студенти в САЩ.
+          </p>
+          <p style="margin-bottom: 0" data-i18n="about.p3">
+            Днес съм в България и искам да предам не само знанията си по езика, но и разбирането
+            си за начина, по който френският действително се говори и използва — в ежедневието,
+            университета и професионалната среда.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" id="pricing">
+      <div class="container">
+        <h2 class="reveal" data-i18n="pricing.h2">Индивидуални уроци</h2>
+
+        <div class="pricing-grid">
+          <div class="pricing-card reveal reveal--1">
+            <div class="price">
+              <span class="price__amount">30 €</span>
+              <span class="price__meta" data-i18n="pricing.meta">/ 60 минути</span>
+            </div>
+
+            <ul class="pricing-includes">
+              <li data-i18n="pricing.include1">Индивидуален урок</li>
+              <li data-i18n="pricing.include2">Съдържание според нивото и целите ти</li>
+              <li data-i18n="pricing.include3">Учебни материали</li>
+              <li data-i18n="pricing.include4">Допълнителна подкрепа и практика</li>
+            </ul>
+
+            <div class="pricing-divider"></div>
+
+            <p class="pricing-free" data-i18n="pricing.free">
+              <strong>Първа опознавателна среща</strong> — 20 минути,
+              <span class="highlight">безплатно</span>.
+            </p>
+
+            <a
+              href="https://calendly.com/merdzhanovalilia/30min/2026-08-27T18:00:00+03:00"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button--accent"
+              data-i18n="cta.book"
+            >
+              Запази безплатна среща
+            </a>
+          </div>
+
+          <div class="pricing-next reveal reveal--2">
+            <h3 data-i18n="pricingNext.title">Какво следва?</h3>
+            <ol class="next-steps">
+              <li>
+                <span class="next-steps__num">1</span>
+                <span class="next-steps__text" data-i18n="pricingNext.step1">Запазваш среща</span>
+              </li>
+              <li>
+                <span class="next-steps__num">2</span>
+                <span class="next-steps__text" data-i18n="pricingNext.step2">Говорим за целите ти</span>
+              </li>
+              <li>
+                <span class="next-steps__num">3</span>
+                <span class="next-steps__text" data-i18n="pricingNext.step3">Започваме</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="cta reveal">
+          <h2 data-i18n="contact.h2">Не е нужно да знаеш откъде да започнеш.</h2>
+          <p class="lead" data-i18n="contact.lead">
+            За 20 минути ще поговорим за нивото ти, целите ти и какъв подход би бил
+            най-подходящ за теб.
+          </p>
+
+          <div class="hero__actions">
+            <a
+              href="https://calendly.com/merdzhanovalilia/30min/2026-08-27T18:00:00+03:00"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button button--accent"
+              data-i18n="cta.book"
+            >
+              Запази безплатна среща
+            </a>
+          </div>
+
+          <p class="cta__meta" data-i18n="contact.meta">20 минути · онлайн · без ангажимент</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p style="margin: 0" data-i18n="footer.text">© 2026 Lili · Уроци по френски език</p>
+      <a href="mailto:merdzhanovalilia@gmail.com">merdzhanovalilia@gmail.com</a>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
