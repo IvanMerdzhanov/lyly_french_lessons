@@ -83,12 +83,12 @@
 (function () {
   var translations = {
     "meta.title": {
-      bg: "Lili — Индивидуални уроци по френски",
-      en: "Lili — Private French Lessons",
+      bg: "Индивидуални уроци по френски онлайн | Lili.fr",
+      en: "Private French Lessons Online | Lili.fr",
     },
     "meta.description": {
-      bg: "Индивидуални онлайн уроци по френски с Лили — от първите думи до свободното говорене, подготовка за учене във Франция и увереност на френски в работата.",
-      en: "Private online French lessons with Lili — from your first words to speaking freely, preparing to study in France, and confidence using French at work.",
+      bg: "Индивидуални онлайн уроци по френски за ежедневие, обучение и работа. Персонален подход и безплатна 20-минутна опознавателна среща.",
+      en: "Private online French lessons tailored to your level and goals — for everyday life, university and work.",
     },
     "skip.link": { bg: "Към съдържанието", en: "Skip to content" },
     "nav.lessons": { bg: "Уроци", en: "Lessons" },
